@@ -1,7 +1,9 @@
 # Changelog
 
-## Unreleased
+## v0.24.0 (July 30, 2026)
 
+-  Update `syn` to v3 [#431](https://github.com/TedDriggs/darling/pull/431)
+-  Add `impl ToTokens for SpannedValue` [#423](https://github.com/TedDriggs/darling/pull/423)
 -  Allow `data` magic field for `FromDeriveInput` to be any type that implements `TryFrom<&syn::Data, Error = darling::Error>` without needing to use `#[darling(with = ...)]` syntax [#391](https://github.com/TedDriggs/darling/issues/391)
 
 ## v0.23.0 (December 3, 2025)
