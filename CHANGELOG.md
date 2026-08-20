@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.24.1 (August 20, 2026)
+
+-  Don't assume fields using `with` impl `FromMeta` [#433](https://github.com/TedDriggs/darling/issues/433)
+-  `#[allow(unused_qualifications)]` in generated code [#435](https://github.com/TedDriggs/darling/issues/435)
+-  Do not include skipped variants in did-you-mean suggestions [#427](https://github.com/TedDriggs/darling/issues/427)
+
 ## v0.24.0 (July 30, 2026)
 
 -  Update `syn` to v3 [#431](https://github.com/TedDriggs/darling/pull/431)
